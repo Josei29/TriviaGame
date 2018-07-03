@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/background.png);
+    font-family: 'EB Garamond', serif;
+}
+
+.Title {
+    color: #FFD700;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+#Start {
+    color: white;
+    background-color: darkred;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 30%;
+    border: 2px white solid;
+    padding: 5px;
+}
+
+#Start:hover {
+    background-color: #9B2335;
+}
+
+.Text {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+}
+
+.OP {
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    background-color: #005960;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.OP:hover {
+    background-color: #223A5E;
+}
+
+#Results {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+#Correct, #Incorrect, #None {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+#Correct {
+    color: #299617;
+}
+
+#Incorrect {
+    color: #D92121;
+}
+
+#None {
+    color: #5DADEC;
+}
