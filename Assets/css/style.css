@@ -28,6 +28,8 @@ body {
 
 #Start:hover {
     background-color: #9B2335;
+    font-size: 45px;
+    cursor: pointer;
 }
 
 .Text {
@@ -35,6 +37,10 @@ body {
     font-size: 25px;
     text-align: center;
     margin: 10px;
+}
+
+#Time {
+    color: #9B2335;
 }
 
 img {
@@ -45,6 +51,7 @@ img {
     margin-right: auto;
     width: 500px;
     height: 200px;
+    border: 3px white solid;
 }
 
 .OP {
@@ -56,14 +63,17 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    padding: 5px;
 }
 
 .OP:hover {
     background-color: #223A5E;
+    font-size: 32px;
+    cursor: pointer;
 }
 
 #Results {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     color: white;
     margin: 20px;
@@ -73,7 +83,7 @@ img {
     text-align: center;
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
 }
 
@@ -87,4 +97,32 @@ img {
 
 #None {
     color: #5DADEC;
+}
+
+#Oscar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+}
+
+#Restart {
+    color: white;
+    background-color: darkred;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 30%;
+    border: 2px white solid;
+    padding: 5px;
+}
+
+#Restart:hover {
+    background-color: #9B2335;
+    font-size: 45px;
+    cursor: pointer;
 }
