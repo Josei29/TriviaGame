@@ -49,9 +49,9 @@ img {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    height: 200px;
-    border: 3px white solid;
+    width: 600px;
+    height: 300px;
+    border: 3px #223A5E solid;
 }
 
 .OP {
@@ -64,10 +64,12 @@ img {
     margin-right: auto;
     width: 400px;
     padding: 5px;
+    border: 2px solid #223A5E;
 }
 
 .OP:hover {
     background-color: #223A5E;
+    border: 1px solid #005960;
     font-size: 32px;
     cursor: pointer;
 }
@@ -100,13 +102,14 @@ img {
 }
 
 #Oscar {
-    display: block;
+    display: none;
     margin: 0 auto;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     height: 350px;
     width: 350px;
+    border-color: white;
 }
 
 #Restart {

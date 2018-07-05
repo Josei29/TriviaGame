@@ -164,7 +164,7 @@ $(document).ready(function() {
             $("#Correct").html("<h2>Correct Guesses: " + Correct + "</h2>");
             $("#Incorrect").html("<h2>Incorrect Guesses: " + Incorrect + "</h2>");
             $("#None").html("<h2>Unanswered: " + Empty + "</h2>");
-            $("#Oscar").html("<img id='Oscar' src=Assets/images/oscar.jpg >");
+            $("#Oscar").html("<img id='Oscar' style='display:block' src=Assets/images/oscar.jpg >");
             $("#Restart").html("Restart");
         } // Results
 
